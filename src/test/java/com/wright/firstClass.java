@@ -19,6 +19,7 @@ public class firstClass {
 	public static void main(String[] args) throws InterruptedException {
 		Dimension size = Toolkit.getDefaultToolkit().getScreenSize(); 
 		int width = (int)size.getWidth(); 
+		
 		int height = (int)size.getHeight();
 
 
