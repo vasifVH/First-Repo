@@ -10,7 +10,7 @@ import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Playwright;
 
 public class ADuserImportAndLogin extends firstClass {
-	String server="pmp";
+	String server="pam";
 	public void adminTab() {
 		if(server=="pmp")
 		{
@@ -76,9 +76,9 @@ public class ADuserImportAndLogin extends firstClass {
 
 		// Create a new page within the context
 		page=context.newPage();
-		page.navigate("https://dhana-16587:7272/");
+		page.navigate("https://13815-deb-pmp:7272/");
 
-		page.waitForURL("https://dhana-16587:7272/PassTrixMain.cc");
+		page.waitForURL("https://13815-deb-pmp:7272/PassTrixMain.cc");
 		
 		try {
 			Thread.sleep(2000);
