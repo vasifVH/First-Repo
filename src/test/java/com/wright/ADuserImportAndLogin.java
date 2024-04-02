@@ -76,9 +76,9 @@ public class ADuserImportAndLogin extends firstClass {
 
 		// Create a new page within the context
 		page=context.newPage();
-		page.navigate("https://13815-deb-pmp:7272/");
+		page.navigate("https://dhana-16587:8282/");
 
-		page.waitForURL("https://13815-deb-pmp:7272/PassTrixMain.cc");
+		page.waitForURL("https://dhana-16587:8282/PassTrixMain.cc");
 		
 		try {
 			Thread.sleep(2000);
